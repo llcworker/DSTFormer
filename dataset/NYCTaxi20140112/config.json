@@ -1,0 +1,60 @@
+{
+  "geo": {
+    "including_types": [
+      "Polygon"
+    ],
+    "Polygon": {
+      "row_id": "num",
+      "column_id": "num"
+    }
+  },
+  "grid": {
+    "including_types": [
+      "state"
+    ],
+    "state": {
+      "row_id": 15,
+      "column_id": 5,
+      "pickup": "num",
+      "dropoff": "num"
+    }
+  },
+  "info": {
+    "data_col": [
+      "pickup",
+      "dropoff"
+    ],
+    "ext_col": [
+      "Temperature",
+      "WindSpeed",
+      "Weather0",
+      "Weather1",
+      "Weather2",
+      "Weather3",
+      "Weather4",
+      "Weather5",
+      "Weather6",
+      "Weather7",
+      "Weather8",
+      "Weather9",
+      "Weather10",
+      "Weather11",
+      "Weather12",
+      "Weather13",
+      "Weather14",
+      "Weather15",
+      "Weather16"
+    ],
+    "data_files": [
+      "NYCTaxi20140112"
+    ],
+    "geo_file": "NYCTaxi20140112",
+    "ext_file": "NYCTaxi20140112",
+    "output_dim": 2,
+    "time_intervals": 1800,
+    "init_weight_inf_or_zero": "inf",
+    "set_weight_link_or_dist": "dist",
+    "calculate_weight_adj": false,
+    "weight_adj_epsilon": 0.1
+  }
+}
